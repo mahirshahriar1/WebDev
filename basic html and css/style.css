@@ -1,0 +1,33 @@
+.blog{
+    border: 5px dashed green;
+    border-radius: 30px;
+    /* margin: 20px 40px;   */
+    /* 4 ta value margin e dile clockwise values change */
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px 100px;
+    width:30%;    
+    display: inline-block;
+ 
+}
+.blog-2{
+    border: 20px solid red;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+
+.blog-3{
+    border: 10px solid blueviolet;
+    border-radius: 20px;
+    margin: 20px;   
+    float: left;              
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}

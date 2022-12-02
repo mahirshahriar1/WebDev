@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+  <style>
+    .fix {
+      width: 1200px;
+    }
+
+    h1 {
+      margin-top: 100px;
+    }
+      
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EDITED</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <h1>Bootstrap</h1>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-link">Link</button>
+
+  <p class="text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis tenetur minima id porro maxime,
+    iste culpa debitis delectus maiores corporis?</p>
+
+  <div class="text-bg-primary p-3">
+    <h1>News</h1>
+    <p>Learning Boostrap</p>
+  </div>
+  <div>
+    <h1>News 2</h1>
+    <p>Learning Boostrap 2</p>
+  </div>
+
+  <span class="badge text-bg-primary">Primary</span>
+  <span class="badge text-bg-info">Info</span>
+
+  <br>
+  <br>
+  <br>
+
+  <h1>images</h1>
+  <!-- img-fluid- w25 w50 -->
+  <img class="img-fluid rounded-circle img-thumbnail fix" src="images/3.jpg" alt="">
+
+
+  <h1>CARD</h1>
+  <div class="card" style="width: 18rem;margin-bottom: 50px;">
+    <img src="images/1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h1>navigation</h1>
+  <nav class="nav">
+    <a class="nav-link" href="">Home</a>
+    <a class="nav-link" href="">Products</a>
+    <a class="nav-link" href="">Shopping cart</a>
+    <a class="nav-link" href="">Shipping</a>
+  </nav>
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+
+  <div class="container">
+    <h1>Grid</h1>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <img class="img-fluid" src="images/1.jpg" alt="">
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut nesciunt, numquam dicta, ipsa
+          perspiciatis quo praesentium nulla natus dolores iure incidunt nemo nostrum repellendus. Debitis, illum, magni
+          consequatur neque maxime quia nesciunt ratione quos alias quas deserunt earum voluptate animi omnis!
+          Accusantium
+        </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut nesciunt, numquam dicta, ipsa
+          perspiciatis quo praesentium nulla natus dolores iure incidunt nemo nostrum repellendus. Debitis, illum, magni
+          consequatur neque maxime quia nesciunt ratione quos alias quas deserunt earum voluptate animi omnis!
+          Accusantium
+        </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, aut nesciunt, numquam dicta, ipsa
+          perspiciatis quo praesentium nulla natus dolores iure incidunt nemo nostrum repellendus. Debitis, illum, magni
+          consequatur neque maxime quia nesciunt ratione quos alias quas deserunt earum voluptate animi omnis!
+          Accusantium
+        </p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Carousel</h1>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"
+      data-bs-pause="hover">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="height: 700px;" src="images/1.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 700px;" src="images/2.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 700px;" src="images/3.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Carousel-2 </h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="height: 700px;" src="images/1.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 700px;" src="images/2.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 700px;" src="images/3.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="d-flex flex-column mb-3">
+    <div class="p-2 d-flex justify-content-center">Flex item 1</div>
+    <div class="p-2">Flex item 2</div>
+    <div class="p-2">Flex item 3</div>
+  </div>
+  <div class="d-flex flex-column-reverse">
+    <div class="p-2">Flex item 1</div>
+    <div class="p-2">Flex item 2</div>
+    <div class="p-2">Flex item 3</div>
+  </div>
+
+
+</body>
+
+</html>

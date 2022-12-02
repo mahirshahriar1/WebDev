@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::before{
+            content: "Hello " ;
+            color: burlywood;
+            font-size: 40px;
+        }
+        .special::after{
+            content: " Bye";
+            /* etar o color henten korte paro */
+        }
+        /* COUNTER */
+        body{
+            counter-reset: section;
+        }
+        p::before{
+            counter-increment: section;
+            content:"Count " counter(section)": ";
+            /* content e emoji boshaite parba */
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 class="special">hello</h1>
+    <h1> &nbsp; tadaa</h1><!-- space -->
+
+    <p>hi</p>
+    <p>hello</p>
+    <p>bye</p>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:#3e3ab3;
+            height: 50px;
+            width: fit-content;
+        }
+        .special-effect:hover{
+            color: indianred;
+            font-size: 50px;
+        }
+        input:focus{
+            font-weight: 700;
+            color: green;       
+            /* can change font size as well */       
+        }
+        #xd{
+            background-color: aqua;
+        }
+       /*  li:first-child{
+            color: #3e3ab3;
+        } */
+        li:nth-child(2n+1){
+            background-color: tomato;
+            width: fit-content;
+        }
+        a:visited{
+            color: blue; /* not visted show */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="special-effect">pseudo class</h1>
+    <input id="xd" name="email" type="text"> <br>
+    <input name="password" type="password">
+    <br>
+    <a href="https://www.youtube.com" target="blank">haha</a>
+    <ul>
+        <li>Alia</li>
+        <li>Talia</li>
+        <li>Dalia</li>
+        <li>Calia</li>
+        <li>Salia</li>
+        <li>Malia</li>
+        <li>lorem</li>
+    </ul>
+
+</body>
+</html>
